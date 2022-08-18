@@ -68,7 +68,7 @@ Citizen.CreateThread(function()
 	for i = 1, #Config.coords, 1 do
 		local blip = AddBlipForCoord(Config.coords[i].coordonee)
 
-		SetBlipSprite(blip, 171)
+		SetBlipSprite(blip, 59)
 		SetBlipDisplay(blip, 4)
 		SetBlipScale(blip, 0.8)
 		SetBlipColour(blip, 5)
